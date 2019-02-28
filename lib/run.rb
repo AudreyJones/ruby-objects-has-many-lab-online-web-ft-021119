@@ -1,1 +1,4 @@
-require_relative 'run'
+require_relative 'artist'
+require_relative 'artist'
+require 'pry'
+binding.pry
