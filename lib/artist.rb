@@ -12,7 +12,7 @@ class Artist
   def self.all
     @@all
   end
-
+  
   def songs
     @songs
   end
@@ -34,6 +34,7 @@ class Artist
     #   song_count << artist.songs
     # end
     # song_count.flatten.length
+    Song.all.count
     # Expected to return 2e
   end
 
